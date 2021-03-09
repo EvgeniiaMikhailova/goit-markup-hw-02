@@ -110,8 +110,7 @@ button[type="submit"] {
   line-height: 1.14;
   text-transform: uppercase;
 }
-
-.part {
+.section-features {
   font-size: 14px;
   line-height: 1.71;
 }
@@ -119,17 +118,12 @@ button[type="submit"] {
 /* Сотрудники */
 .section-team {
   background-color: var(--additional-bgc);
+  font-size: 16px;
+  line-height: 1.18;
 }
 .team-title {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-}
-
-.profession {
-  font-size: 16px;
-  line-height: 1.18;
 }
 
 /* Фильтр в Портфолио */
@@ -150,17 +144,18 @@ button[type="submit"] {
 }
 
 /* Карточки */
+
+.cards {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
 .card-title {
   color: var(--title-text-color);
   letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-}
-
-.form {
-  font-size: 16px;
-  line-height: 1.87;
 }
 
 /* Подвал */
@@ -171,6 +166,7 @@ button[type="submit"] {
 .footer-contacts .link {
   color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-contacts .link:hover,
 .footer-contacts .link:focus {
   color: var(--accent-color);
