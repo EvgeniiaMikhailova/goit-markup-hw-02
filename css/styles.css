@@ -1,0 +1,90 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --additional-bgc: #f5f4fa;
+  --primary-bgc: #ffffff;
+  --alternative-bgc: #2f303a;
+}
+
+/* цвет основного текста: #757575;*/
+/* вторичный цвет текста: #212121; */
+/* акцент #2196F3;*/
+/* ссылки в футере: rgba(255, 255, 255, 0.6); */
+/* фон героя и футера: #2F303A; */
+/* фон команды: #F5F4FA; */
+
+body {
+  background-color: var(--primary-bgc);
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+
+/* Логотип */
+.logo {
+  color: var(--accent-color);
+}
+.header-logo {
+  color: #000000;
+}
+.footer-logo {
+  color: #ffffff;
+}
+
+/* Герой */
+.section-hero {
+  background-color: var(--alternative-bgc);
+  color: #ffffff;
+}
+.hero-title {
+  color: #ffffff;
+}
+
+/*  Навигация по сайту */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.header-contacts .link {
+  color: var(--primary-text-color);
+}
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Сотрудники */
+.section-team {
+  background-color: var(--alternative-bgc);
+}
+
+/* Фильтр в Портфолио */
+.button {
+  background-color: var(--additional-bgc);
+  color: var(--title-text-color);
+  border-color: transparent;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bgc);
+}
+
+/* Подвал */
+.footer {
+  background-color: var(--alternative-bgc);
+  color: #ffffff;
+}
+.footer-contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+}
