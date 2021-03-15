@@ -29,6 +29,10 @@ ul {
   text-decoration: none;
 }
 
+address {
+    font-style: normal;
+}
+
 .visually-hidden {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
@@ -48,6 +52,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none
 }
 .header-logo {
   color: #000000;
@@ -112,7 +117,7 @@ ul {
   text-transform: uppercase;
 }
 
-button[type="submit"] {
+.order {
   background-color: var(--accent-color);
   color: var(--primary-bgc);
   letter-spacing: 0.06em;
@@ -120,6 +125,11 @@ button[type="submit"] {
   font-size: 16px;
   line-height: 1.8;
   text-align: center;
+}
+
+.order:hover,
+.order:focus {
+  background-color: #188ce8;
 }
 
 /* Особенности */
@@ -170,6 +180,7 @@ button[type="submit"] {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
+   text-decoration: none
 }
 
 .card-title {
